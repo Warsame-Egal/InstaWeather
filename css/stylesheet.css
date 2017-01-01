@@ -1,7 +1,57 @@
-p {
-    color: blue;
+body {
+    background-color:darkslategrey;
 }
 
-#jumbotron {
-    background: green;
+#title, h1 {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    top: 5px;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#weather, h2, button {
+    text-align: center;
+    line-height: 10px;
+    padding: 10px;
+}    
+
+#country {
+    color: white;
+        padding: 10px;
+
+}
+
+#city {
+    color: white;
+    padding: 10px;
+
+}
+
+#temp {
+    color: white;
+        padding: 10px;
+
+}
+
+#humidity {
+    color: white;
+        padding: 10px;
+
+}
+
+#windSpeed {
+    color: white;
+        padding: 10px;
+
+}
+#weatherDescription {
+    color: white;
+        padding: 10px;
+
+}
+
+#map {
 }
