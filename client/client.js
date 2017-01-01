@@ -5,7 +5,7 @@ var img = new Image();
 var output;
 //Finds the users location using google API
 function geoFindMe() {
-     output = document.getElementById("out");;
+     output = document.getElementById("displayMap");
 
     if (!navigator.geolocation) {
         output.innerHTML = "<p>Geolocation is not supported by your browser</p>";
